@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 264" role="img" aria-label="Rowter">
+  <defs>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#1A1A1A" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="hi" cx="0.5" cy="-0.15" r="0.85">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.65"/>
+      <stop offset="0.58" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- cream canvas + grid + top highlight -->
+  <rect width="1040" height="264" fill="#FBF9F4"/>
+  <rect width="1040" height="264" fill="url(#grid)"/>
+  <rect width="1040" height="264" fill="url(#hi)"/>
+
+  <!-- mascot (native viewBox 0 0 60 39), centred, 100px wide -->
+  <svg x="470" y="62" width="100" height="65" viewBox="0 0 60 39" shape-rendering="crispEdges">
+    <rect x="18" y="3"  width="3"  height="12" fill="#3a3a3a"/>
+    <rect x="39" y="3"  width="3"  height="12" fill="#3a3a3a"/>
+    <rect x="15" y="15" width="30" height="3"  fill="#d4b896"/>
+    <rect x="12" y="18" width="36" height="18" fill="#d4b896"/>
+    <rect x="15" y="36" width="30" height="3"  fill="#d4b896"/>
+    <rect x="21" y="24" width="3"  height="6"  fill="#14110f"/>
+    <rect x="36" y="24" width="3"  height="6"  fill="#14110f"/>
+  </svg>
+
+  <!-- wordmark (native viewBox 0 -762 3398 1000), centred, 150px wide -->
+  <svg x="445" y="153" width="150" height="44" viewBox="0 -762 3398 1000">
+    <g transform="scale(1 -1)" fill="#14110f">
+      <path transform="translate(0 0)" d="M503 0H708L493 285C570 310 625 365 625 465C625 609 511 657 400 657H72V0H236V268H310ZM445 612V314C425 311 405 309 385 309H236V615H397C413 615 429 614 445 612ZM115 615H193V42H115ZM448 274 623 42H525L362 268H375C400 268 424 270 448 274ZM578 466C578 389 539 348 488 327V601C540 581 578 541 578 466Z"/>
+      <path transform="translate(749 0)" d="M511 223C511 363 421 465 273 465C129 465 37 363 37 227C37 82 126 -13 273 -13C419 -13 511 82 511 223ZM273 424C307 424 337 418 362 406V45C336 33 306 28 273 28C241 28 212 33 186 44V405C211 417 241 424 273 424ZM405 71V378C444 343 465 289 465 223C465 154 443 103 405 71ZM143 71C105 103 83 155 83 227C83 290 105 342 143 377Z"/>
+      <path transform="translate(1316 0)" d="M701 455H656L558 106H554L477 455H344L251 106H248L171 455H13L121 0H267L350 320H353L428 0H572ZM219 42H157L71 413H134ZM525 42H463L377 413H440Z"/>
+      <path transform="translate(2051 0)" d="M229 32V412H320V456H229V648H188L82 591V456H20V412H82V78C82 15 121 -13 184 -13C252 -13 306 16 338 41L318 74C288 53 262 39 229 32ZM185 28C136 28 125 54 125 98V566L186 598V28C186 28 185 28 185 28Z"/>
+      <path transform="translate(2424 0)" d="M190 48V204H482V254C482 385 389 465 273 465C131 465 39 366 39 230C39 83 128 -13 273 -13C356 -13 429 21 471 96L434 121C391 56 340 28 273 28C244 28 216 35 190 48ZM330 246H190V409C212 418 239 424 271 424C291 424 311 420 330 414ZM145 380V80C109 115 85 166 85 230C85 278 101 339 145 380ZM435 263V246H375V389C411 362 435 319 435 263Z"/>
+      <path transform="translate(2965 0)" d="M416 465C327 466 248 423 216 354H214V456H66V0H214V196C214 295 254 352 293 382C339 417 397 418 416 419ZM171 42H109V414H171Z"/>
+    </g>
+  </svg>
+</svg>
