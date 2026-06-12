@@ -9,18 +9,14 @@
 ## How it fits together
 
 <div align="center">
-  <img src="assets/architecture.png" alt="evals wraps studio, which contains rowter calling toolkit and plugins" width="100%">
+  <img src="assets/architecture.png" alt="studio contains rowter, toolkit, plugins, and evals" width="100%">
 </div>
 
-**rowter** is the agent. **studio** is the app you run it in. **toolkit** gives it retrieval; **plugins** give it data and tools. **evals** runs the whole thing through Inspect-AI checks so its behaviour stays consistent as it changes.
+**rowter** is the agent. **studio** is the app you run it in — and the single repo that contains everything: the agent runtime, retrieval layer, plugins, and evals, all with full history.
 
-## The repositories
+## The repository
 
-- **[studio](https://github.com/rawrter/studio)** — *start here.* The app you run: chat, knowledge bases, memory, plugins, settings. FastAPI + React, one command to boot.
-- **[rowter](https://github.com/rawrter/rowter)** — *the agent.* The runtime: harness, prompts, profiles, the tool schema, and every native tool (`ask_user`, `save_memory`, search, knowledge).
-- **[toolkit](https://github.com/rawrter/toolkit)** — *retrieval.* The search layer rowter calls: embeddings, ChromaDB vector store, chunking, ingest and search.
-- **[plugins](https://github.com/rawrter/plugins)** — *data and tools.* Each manifest adds a data source and the tools that expose it (3GPP, O-RAN, CAMARA, catalog). Loaded on demand.
-- **[evals](https://github.com/rawrter/evals)** — *checks.* The Inspect-AI suite that keeps Rowter's behaviour consistent.
+- **[studio](https://github.com/rawrter/studio)** — *everything is here.* The app, the agent (`rowter/`), the retrieval layer (`toolkit/`), the plugin manifests (`plugins/`), and the Inspect-AI evaluation suite (`evals/`). One command to boot.
 
 ## Open source
 
